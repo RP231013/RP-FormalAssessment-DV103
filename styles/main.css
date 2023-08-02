@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Libre+Baskerville:wght@700&display=swap');
+
+/* ---------------------- */
+/* Global Styles */
+
+/* fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+/* Spacing */
+.full-height {
+    height: 100vh;
+}
+
+
+/* ---------------------- */
+/* Components */
+button {
+    border: none;
+    /* LRTB */
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: #18382B;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+/* ---------------------- */
+/* Bootstrap Components Overrides */
+
+/* navigation */
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.nav-link:hover {
+    color: #18382B;
+    
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #18382B;
+    color: #18382B;
+}
+
+.carousel-item {
+    background-color: #e6f2e9;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: auto;
+    right: auto;
+    left: 24px;
+    bottom: 24px;
+    width: auto;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.carousel-control-next {
+    left: 84px;
+}
+
+/* accordion */
+.accordion{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.accordion-item, .accordion button{
+    background-color: #e6f2e9;
+    color: #18382B;
+    font-size: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #e6f2e9;
+    color: #18382B;
+}
+
+/* cards */
+.card {
+    border-radius: 150px 150px 12px 12px;
+    background: #f3f3f3;
+    text-align: center;
+    height: 440px;
+    border: none;
+}
+
+.card-img-top {
+    height: 320px;
+    margin: auto;
+    width: auto;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-text {
+    color: #18382B;
+}
+
+.card-img-top.small {
+    height: 200px;
+}
+
+/* ---------------------- */
+/* Home Page */
+.hero-image {
+    height: 90vh;
+    position: relative;
+    bottom: -100px;
+}
+
+
+/* wishlist */
+.table img{
+    height: 20vh;
+}
+
+.table{
+    text-align: center;
+    vertical-align: middle;
+}
